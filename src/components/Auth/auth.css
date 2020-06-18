@@ -25,9 +25,24 @@
 	padding-top: 10px;
 	padding-left: 0;
 	margin-bottom: 0;
+	font-family: sans-serif;
+	font-size: 6px;
+	border: 1.5px solid #e92828;
+	font-weight: 300;
+	width: 10rem;
+	height: 8rem;
+	border-radius: 0.5rem;
+}
+.form-class form h4 {
+	color: #0a460a;
+	background-color: #c9d6d6;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 0;
+	margin-bottom: 0;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 10px;
-	border: 1.5px solid #e92828;
+	border: 1.5px solid #084908;
 	font-weight: 400;
 	width: 10rem;
 	height: 2rem;
@@ -100,6 +115,11 @@
 		width: 20rem;
 		font-size: 25px;
 		height: 55px;
+	}
+	.form-class form h4 {
+		font-size: 20px;
+		width: 20rem;
+		font-weight: bold;
 	}
 	.form-class form button {
 		margin-left: 6rem;

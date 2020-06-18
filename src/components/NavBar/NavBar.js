@@ -20,9 +20,11 @@ const NavBar = (props) => {
 						<NavLink to="/comments">Comments</NavLink>
 					</li>
 
-					<li>
-						<NavLink to="/make-comment">MakeComments</NavLink>
-					</li>
+					{context.token && (
+						<li>
+							<NavLink to="/makecomment">MakeComments</NavLink>
+						</li>
+					)}
 
 					<li onClick={props.onLogout}>
 						<NavLink to="/auth">Logout</NavLink>

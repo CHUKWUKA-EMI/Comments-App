@@ -1,0 +1,90 @@
+.comment-class {
+	display: block;
+	width: 100%;
+	margin: 90px auto;
+}
+.comment-class form {
+	margin-left: 5rem;
+	width: 50rem;
+	border: 3px solid #052e30;
+	padding: 0;
+}
+.comment-class form button {
+	width: 5rem;
+	height: 2rem;
+	margin-left: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	color: white;
+	background-color: #15868a;
+}
+.comment-class form button:hover {
+	background-color: #052e30;
+	border: 2px solid white;
+	cursor: pointer;
+}
+.comment-class form h2 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 25px;
+	color: #06383a;
+}
+.comment-class form div label {
+	margin-left: 7rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 17px;
+	color: #06383a;
+}
+.comment-class form div input {
+	margin-left: 7rem;
+	width: 30rem;
+	height: 4rem;
+	font-size: 15px;
+	color: #06383a;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	border: 2px solid #06383a;
+}
+.error {
+	display: flex;
+	width: 20rem;
+	justify-content: center;
+	color: red;
+	font-size: 25px;
+	border: 1.5px solid #680303;
+}
+.success {
+	display: flex;
+	width: 10rem;
+	color: #065306;
+	border: 1.5px solid #06383a;
+}
+
+@media (min-width: 768px) {
+	.comment-class form {
+		margin-left: 20rem;
+		margin-top: 10rem;
+	}
+	.comment-class form button {
+		width: 6rem;
+		height: 3rem;
+		font-size: 15px;
+	}
+	.comment-class form h2 {
+		margin-left: 15rem;
+		margin-top: 0;
+	}
+	.comment-class form div input {
+		margin-top: 1rem;
+	}
+	.comment-class form div label {
+		margin-bottom: 0;
+	}
+	.error {
+		width: 30rem;
+	}
+	.success {
+		width: 30rem;
+	}
+}
