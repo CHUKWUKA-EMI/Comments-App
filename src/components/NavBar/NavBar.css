@@ -1,0 +1,108 @@
+.Nav {
+	display: flex;
+	flex-wrap: wrap;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #084749;
+	font-size: large;
+	color: white;
+	height: 5rem;
+	width: 100%;
+	padding: 1rem 0;
+	padding-top: 0.2rem;
+	align-items: center;
+}
+.Nav h1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30px;
+	margin-top: 0;
+	font-style: italic;
+	margin-left: 10px;
+	font-weight: 500;
+	width: 20px;
+}
+.Nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 20px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 8rem;
+	font-family: sans-serif;
+	padding-right: 0;
+	list-style: none;
+}
+
+.Nav ul a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 750;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
+	padding: 0.25rem 0.5rem;
+	margin: 0.5rem;
+	border-radius: 0.5rem;
+	height: 10px;
+	background: transparent;
+}
+
+.Nav ul a:hover,
+.Nav ul a:active,
+.Nav ul a.active {
+	align-items: center;
+	color: #052e30;
+	background-color: white;
+	padding: 0.25rem 0.4rem;
+	margin: 0.4rem;
+}
+
+@media (min-width: 768px) {
+	.Nav {
+		width: 100%;
+		flex-wrap: nowrap;
+		padding: 1rem 0;
+	}
+	.Nav h1 {
+		width: 40px;
+		font-size: 40px;
+	}
+	.Nav ul {
+		flex-wrap: nowrap;
+		margin-left: 17rem;
+		font-size: 40px;
+		justify-content: space-between;
+	}
+}
+@media (min-width: 1024px) {
+	.Nav ul {
+		flex-wrap: nowrap;
+		margin-left: 35rem;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 1280px) {
+	.Nav {
+		height: 3rem;
+		padding-top: 1.7rem;
+	}
+	.Nav ul {
+		margin-left: 50rem;
+	}
+}
+
+@media (min-width: 1440px) {
+	.Nav {
+		height: 2rem;
+		padding-top: 2rem;
+	}
+	.Nav ul {
+		margin-left: 57rem;
+		padding-right: 3rem;
+	}
+}
